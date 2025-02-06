@@ -1,0 +1,89 @@
+body {
+    background-image: url("4.jpg");
+    background-size: 95%;
+  
+}
+h1 {
+    color: red;
+    font-size: 50px;
+	font-style: italic;
+}
+
+h5 {
+    color: yellow;
+    font-size: 20px;
+}
+
+h3, h2 {
+    color: white;
+    font-size: 20px;
+}
+.gender-radio,gender-label{
+	margin-right:2%;
+	margin-left:3% ;
+	text-align:center;
+	color:red;
+	
+}
+.Branch-radio,Branch-label{
+	margin-right:2%;
+	margin-left:3% ;
+	text-align:center;
+	
+}
+.submit{
+	text-align:center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.tx,pl{
+	margin-bottom:100px;
+	text-align:center;
+	
+}
+
+.im{
+	color:red;
+}
+
+.nav-container {
+    display: flex;
+    color: red;
+    font-size: 20px;
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+.para{
+	text-align: center;
+	color: white;
+	font-style: bold;
+	padding: 10px 15px;
+	font-size:28px;
+}
+.par{
+	text-align: center;
+	font-style: bold;
+	font-size: 25px;
+	color: white;
+}
+.head{
+	color: red;
+}
+label{
+	color:red;
+}
+a{
+	text-decoration:none;
+	color:red;
+	}
+

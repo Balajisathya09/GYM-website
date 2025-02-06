@@ -1,0 +1,55 @@
+<html>
+<body>
+<h2>Sign Up</h2>
+<form id="signup"action=""method="POST">
+<div>
+<lable>User Name</lable>
+<input type="text"id="User Name"required placeholder="Enter The User Name">
+<div clas="error"id="user"></div>
+</div>
+<div>
+<lable>Email</lable>
+<input type="text"id="mail"required placeholder="Enter The Email">
+<div clas="messmail"id="errormail"></div>
+</div>
+<div>
+<lable>Password</lable>
+<input type="Password"id="psw"required minlength="6"placeholder="Enter The Password">
+<div clas="messpsw"id="errorpsw"></div>
+</div>
+<input type="submit"value="signup">
+</form>
+<script>
+const form=document.getElementById('signup');
+form.addEvenListener('submit'.function(event){
+//previous Error Message-Clear
+document.getElementById('user').textContent='';
+document.getElementById('mail').textContent='';
+document.getElementById('psw').textContent='';
+//Username Validation
+const username=document.getElementById('User Name'.textContent='Username must be at least 4 character.''
+is Valid=false;
+}
+//Email Validation
+const Email=document.getElementById('mail');
+const emailpatten=/^[a-zA-Z0-9,_%+-]+@\.[a-zA-Z]{2,}$/;
+if(!emailpatten.test(email.value))
+{
+document.getElementById('errormail').textContent='Please Ebter the valid Email address.';
+is Vaild=false;
+}
+//Password Validation
+
+const password=document.getElementById('psw');
+if(password.valid.length<8)
+{
+document.getElementById('errorpsw'),textContent="Passwordmust be at least 8 characters.";
+is Vaild=false;
+}
+if(!is Valid){
+event.preventDefault();
+}
+});
+</script>
+</body>
+</html>
